@@ -15,16 +15,6 @@ public class CarController {
 
     private final CarService service;
 
-    List<Car> cars = Arrays.asList(
-            new Car("BMW", 180, "5"),
-            new Car("Лада", 300, "3"),
-            new Car("Мерседес", 789, "1"),
-            new Car("Бугатти", 123, "5"),
-            new Car("Порш", 345, "5"),
-            new Car("Ауди", 250, "3"),
-            new Car("Лада", 200, "2"),
-            new Car("Ока", 1000, "5"));
-
     public CarController(CarService service) {
         this.service = service;
     }
